@@ -87,7 +87,8 @@
     @font-face {
         font-family: 'Bright';
         font-style: normal;
-        src: url('../fonts/Bright.otf');
+        font-weight: 200;
+        src: url('../fonts/Bright.otf') format('opentype');
     }
 
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
