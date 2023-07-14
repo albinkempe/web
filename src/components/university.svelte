@@ -25,7 +25,6 @@
 
     .card {
         background-color: variables.$color-card;
-        margin: auto;
         padding: 0.8em;
         border-radius: 0.3em;
         margin: 1em 0;
@@ -54,7 +53,7 @@
 
     .date {
         font-size: 70%;
-        color: darken(variables.$color-text-1, 40%);
+        color: darken(variables.$color-text-1, 30%);
     }
 
     .flex-horizontal {
