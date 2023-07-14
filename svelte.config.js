@@ -9,7 +9,7 @@ const config = {
 
 	kit: {
 		paths: {
-			base: '/albinkempe.github.io/',
+			base: '/albinkempe.github.io',
 		},
 		appDir: 'internal',
 		adapter: adapter({
