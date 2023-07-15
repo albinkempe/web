@@ -87,7 +87,8 @@
     @font-face {
         font-family: 'Bright';
         font-style: normal;
-        src: url('fonts/Bright.otf') format('opentype');
+        src: url('/fonts/Bright.ttf') format('truetype');
+        src: url('/fonts/Bright.otf') format('opentype');
     }
 
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
@@ -142,7 +143,7 @@
 
     h1 {
         font-size: 800%;
-        font-family: 'Bright', serif;
+        font-family: Bright, serif;
         margin: 0.3em 0 0.3em 0;
         font-weight: normal;
     }
