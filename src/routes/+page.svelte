@@ -69,14 +69,14 @@
 
         <div class="projects">
             <div class="project">
-                <h3>Cloud Connector Project</h3>
+                <h3>Cloud Connector</h3>
                 <p>I worked as a developer on a system integration project. I developed an efficent, stable and secure .NET software solution that connects company infrastructure.</p>
             </div>
         </div>
     </section>
 
     <footer>
-        Updated 2023-07-14
+        Updated 2023-07-15
     </footer>
 
 </main>
@@ -87,8 +87,7 @@
     @font-face {
         font-family: 'Bright';
         font-style: normal;
-        font-weight: 200;
-        src: url('./fonts/Bright.otf') format('opentype');
+        src: url('fonts/Bright.otf') format('opentype');
     }
 
     @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
