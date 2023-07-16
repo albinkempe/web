@@ -34,7 +34,7 @@
             </div>
             <div class="project">
                 <h3>METAspexet 2023</h3>
-                <p>Created graphical material such as merch, stickers and posters in Adobe Photoshop, Illustrator and InDesign for the annual METAspexet musical.</p>
+                <p>Created graphical material such as merch, stickers and posters using Adobe Photoshop, Illustrator and InDesign for the annual METAspexet musical.</p>
             </div>
         </div>
 
@@ -70,13 +70,13 @@
         <div class="projects">
             <div class="project">
                 <h3>Cloud Connector</h3>
-                <p>I worked as a developer on a system integration project. I developed an efficent, stable and secure .NET software solution that connects company infrastructure.</p>
+                <p>I worked as a developer on a system integration project. I developed an efficent, stable and secure .NET software solution.</p>
             </div>
         </div>
     </section>
 
     <footer>
-        Updated 2023-07-15
+        Updated 2023-07-17
     </footer>
 
 </main>
@@ -132,9 +132,10 @@
     }
 
     h1 {
-        font-size: 500%;
+        font-size: 400%;
+        line-height: 70%;
         font-family: 'Bright', sans-serif;
-        margin: 0.3em 0 0.3em 0;
+        margin: 0.2em 0 0.2em 0;
         font-weight: normal;
         font-style: normal;
     }
@@ -165,6 +166,7 @@
 
         h1 {
             font-size: 800%;
+            margin: 0.3em 0 0.3em 0;
         }
     }
 
