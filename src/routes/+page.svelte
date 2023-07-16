@@ -135,13 +135,14 @@
         font-size: 400%;
         line-height: 70%;
         font-family: 'Bright', sans-serif;
-        margin: 0.2em 0 0.2em 0;
         font-weight: normal;
         font-style: normal;
+        margin: 0.2em 0 0.2em 0;
     }
 
     h2 {
         margin-bottom: 0.3em;
+        font-size: 90%;
     }
 
     h3 {
@@ -167,6 +168,10 @@
         h1 {
             font-size: 800%;
             margin: 0.3em 0 0.3em 0;
+        }
+
+        h2 {
+            font-size: 110%;
         }
     }
 

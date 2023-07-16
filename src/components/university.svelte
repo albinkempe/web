@@ -1,7 +1,7 @@
 <script lang="ts">
     // @ts-nocheck
-    export let university;
     export let degree;
+    export let university;
     export let startDate;
     export let endDate;
     export let imageSrc;
@@ -37,7 +37,7 @@
         }
     }
 
-    .uni, .degree, .date {
+    .degree, .uni, .date {
         margin: 0;
         text-align: left;
         line-height: 90%;
