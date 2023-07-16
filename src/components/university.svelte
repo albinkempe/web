@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     // @ts-nocheck
     export let university;
     export let degree;

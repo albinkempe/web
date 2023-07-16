@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
     import University from "../components/university.svelte";
 </script>
 
@@ -83,16 +83,7 @@
 
 <style lang="scss">
     @use 'variables';
-
-    @font-face {
-        font-family: 'Bright';
-        font-style: normal;
-        src: url('/fonts/Bright.ttf') format('truetype');
-    }
-
-    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
-    @import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&display=swap');
-    
+    @use 'fonts';
 
     :global(body) {
         margin: 0;
@@ -141,10 +132,11 @@
     }
 
     h1 {
-        font-size: 800%;
-        font-family: Bright, serif;
+        font-size: 500%;
+        font-family: 'Bright', sans-serif;
         margin: 0.3em 0 0.3em 0;
         font-weight: normal;
+        font-style: normal;
     }
 
     h2 {
@@ -169,6 +161,10 @@
     @media only screen and (min-width: 768px) {
         main {
             width: 50vw;
+        }
+
+        h1 {
+            font-size: 800%;
         }
     }
 
